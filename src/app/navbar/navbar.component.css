@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap");
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background:rgb(33, 33, 33);
+  box-shadow: rgb(197, 179, 179);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; 
+  height: 50px; 
+  margin-left: 10px;
+}
+
+.site-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.active{
+  background-color: rgb(59, 59, 59);
+}
+.geo-glimpse {
+  padding-left: 84px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+  @media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+@media screen and (max-width: 599px){
+  .geo-glimpse{
+    margin-top: 13px;
+    margin-left: -60px;
+  }
+
+.navbar-right{
+  gap: 0;
+
+}
+.navbar-left{
+  padding-left: 10px;
+}
+
+.mat-toolbar .navbar-right button {
+  margin-right: 0;
+}
+
+  button{
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+    margin-left: 8px;
+    
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
